@@ -41,12 +41,20 @@ bibliography_entries("gx_pubs.bib") %>%
 
 # Grants and Fellowships
 
-```{r scholarship, results='asis'}
-# how do I add a dollar sign??
+```{r scholarship, results = 'asis'}
 read_csv("gx_fellowships.csv") %>%
-  select(year, fellowship, money) %>%
-  mutate(money = paste("\\$", format(money, big.mark = ","))) %>%
+  select(year, fellowship, monetary_value) %>%
+  mutate(monetary_value = paste("\\$", 
+                                format(monetary_value, big.mark = ","))) %>%
   baretable()
 ```
 
 # Honours and awards
+
+```{r awards, results = 'asis'}
+read_csv("gx_honors_awards.csv") %>%
+  select(year, award, monetary_value) %>%
+  mutate(monetary_value = paste("\\$", format(monetary_value, big.mark = ","))) %>%
+  baretable()
+```
+
