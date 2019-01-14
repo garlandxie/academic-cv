@@ -1,0 +1,52 @@
+---
+name: Garland Xie
+position: "M.A.Sc Candidate"
+address: "Department of Biology, \\tabularnewline Saint Mary's University, B3H 2N8, Canada"
+phone: +1 647 330 8154
+www: garlandxie.netlify.com
+email: "garlandxie.netlify.com"
+twitter: garlandxie
+github: garlandxie
+linkedin: garlandxie
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: "000088"
+output: vitae::hyndman
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tidyverse)
+library(RefManageR)
+source("baretable.R")
+```
+
+# Education 
+
+```{r degrees, results='asis'}
+tribble(
+  ~Year, ~Degree, ~Institution,
+  2017, "B.Sc.(Hons)", "University of Toronto"
+) %>%
+  baretable()
+```
+
+# Publications
+
+```{r research-papers}
+bibliography_entries("gx_pubs.bib") %>%
+  filter(bibtype == "Article") %>%
+  arrange(date, author)
+```
+
+# Grants and Fellowships
+
+```{r scholarship, results='asis'}
+# how do I add a dollar sign??
+read_csv("gx_fellowships.csv") %>%
+  select(year, fellowship, money) %>%
+  mutate(money = paste("\\$", format(money, big.mark = ","))) %>%
+  baretable()
+```
+
+# Honours and awards

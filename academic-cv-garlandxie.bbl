@@ -1,0 +1,170 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{macivor_manipulating_2018}{article}{}
+      \name{author}{8}{}{%
+        {{uniquename=0,uniquepart=base,hash=9dcc4c33bebd7a922c4e701b9e81157b}{%
+           family={{MacIvor}},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi Scott},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=af7b6a69d5fd10b1c8d93bdc38d406f3}{%
+           family={Sookhan},
+           familyi={S\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d9f7e0b55a2cd14cc24fff8f5c42949f}{%
+           family={Arnillas},
+           familyi={A\bibinitperiod},
+           given={Carlos\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9eae5cdc8f4c692f6468a47d5fe7a6b6}{%
+           family={Bhatt},
+           familyi={B\bibinitperiod},
+           given={Anushree},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5d5b8e99c5990dbf0bb8e2450b66298c}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Shameek},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=763b1ea4d3906da74588fd3a02f187aa}{%
+           family={Yasui},
+           familyi={Y\bibinitperiod},
+           given={Simone-Louise\bibnamedelima E.},
+           giveni={S\bibinithyphendelim L\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=1909a9679ebf82f0f3236ecea66428af}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Garland},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=54478897a9833aa169bd9652ba068d84}{%
+           family={Cadotte},
+           familyi={C\bibinitperiod},
+           given={Marc\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{75ad2cea9de7495b024f22eb6761c7de}
+      \strng{fullhash}{75ad2cea9de7495b024f22eb6761c7de}
+      \strng{bibnamehash}{75ad2cea9de7495b024f22eb6761c7de}
+      \strng{authorbibnamehash}{75ad2cea9de7495b024f22eb6761c7de}
+      \strng{authornamehash}{75ad2cea9de7495b024f22eb6761c7de}
+      \strng{authorfullhash}{75ad2cea9de7495b024f22eb6761c7de}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Plant species and functional trait diversity have each been shown to improve green roof services. Species and trait differences that contribute to ecosystem services are the product of past evolutionary change and phylogenetic diversity ({PD}), which quantifies the relatedness among species within a community. In this study, we present an experimental framework to assess the contribution of plant community {PD} for green roof ecosystem service delivery, and data from one season that support our hypotheses that {PD} would be positively correlated with two services: building cooling and rainwater management. Using 28 plant species in 12 families, we created six community combinations with different levels of {PD}. Each of these communities was replicated at eight green roofs along an elevation gradient, as well as a ground level control. We found that the minimum and mean roof temperature decreased with increasing {PD} in the plant community. Increasing {PD} also led to an increase in the volume of rainwater captured, but not the proportion of water lost via evapotranspiration 48 hr following the rain event. Our findings suggest that considering these evolutionary relationships could improve functioning of green infrastructure and we recommend that understanding how to make {PD} (and other measures of diversity) serviceable for plant selection by practitioners will improve the effectiveness of design and ecosystem service delivery. Lastly, since no two green roof sites are the same and can vary tremendously in microclimate conditions, our study illustrates the importance of including multiple independent sites in studies of green roof performance.}
+      \field{issn}{17524571}
+      \field{journaltitle}{Evolutionary Applications}
+      \field{langid}{english}
+      \field{number}{10}
+      \field{title}{Manipulating plant phylogenetic diversity for green roof ecosystem service delivery}
+      \field{volume}{11}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{2014\bibrangedash 2024}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/eva.12703
+      \endverb
+      \verb{file}
+      \verb MacIvor et al. - 2018 - Manipulating plant phylogenetic diversity for gree.pdf:C\:\\Users\\garla\\Zotero\\storage\\D64BV62J\\MacIvor et al. - 2018 - Manipulating plant phylogenetic diversity for gree.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://doi.wiley.com/10.1111/eva.12703
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1111/eva.12703
+      \endverb
+    \endentry
+    \entry{xie_phylogenetic_2018}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,uniquepart=base,hash=1909a9679ebf82f0f3236ecea66428af}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Garland},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=a8cda10b86fafc32d83fce88b29bd440}{%
+           family={Lundholm},
+           familyi={L\bibinitperiod},
+           given={Jeremy\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=d407678e83bf6d28eedc366813739b05}{%
+           family={Scott\bibnamedelima {MacIvor}},
+           familyi={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f3ad58bb2f089457cd48451c6ef757b6}
+      \strng{fullhash}{f3ad58bb2f089457cd48451c6ef757b6}
+      \strng{bibnamehash}{f3ad58bb2f089457cd48451c6ef757b6}
+      \strng{authorbibnamehash}{f3ad58bb2f089457cd48451c6ef757b6}
+      \strng{authornamehash}{f3ad58bb2f089457cd48451c6ef757b6}
+      \strng{authorfullhash}{f3ad58bb2f089457cd48451c6ef757b6}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Plant selection and diversity can inﬂuence the provision of key ecosystem services in extensive green roofs. While species richness does predict ecosystem services, functional and phylogenetic community structure may provide a stronger mechanistic link to such services than species richness alone. In this study, we assessed the relationship between community-weighted trait values from four key leaf and canopy functional traits (plant height, leaf area, speciﬁc leaf area, dry leaf matter content), functional diversity, and phylogenetic diversity to ten different green roof functions, including ecosystem multifunctionality, in experimental polycultures. Functional traits of dominant plant species were a major driver for indicators of multiple green roof functions, such as substrate nitrate-N, substrate phosphorus, aboveground biomass and ecosystem multifunctionality. In contrast, functional diversity alone increased substrate organic matter. Moreover, both functional/phylogenetic diversity and identity predicted canopy density, substrate cooling. This study highlights the ﬁrst line of evidence that distinct aspects of phylogenetic and functional diversity play a major role in predicting multiple green roof services. Therefore, we provide further evidence that to maximize green roof functioning, a very careful selection of plant traits and polycultures are needed.}
+      \field{issn}{00489697}
+      \field{journaltitle}{Science of The Total Environment}
+      \field{langid}{english}
+      \field{title}{Phylogenetic diversity and plant trait composition predict multiple ecosystem functions in green roofs}
+      \field{volume}{628-629}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \true{nocite}
+      \field{pages}{1017\bibrangedash 1026}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.scitotenv.2018.02.093
+      \endverb
+      \verb{file}
+      \verb Xie et al. - 2018 - Phylogenetic diversity and plant trait composition.pdf:C\:\\Users\\garla\\Zotero\\storage\\J2FZ2IET\\Xie et al. - 2018 - Phylogenetic diversity and plant trait composition.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0048969718304832
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0048969718304832
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
