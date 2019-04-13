@@ -13,7 +13,7 @@ headcolor: "000088"
 output: vitae::hyndman
 ---
 
-```{r setup, include=FALSE}
+```{r libraries, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
 library(tidyverse)
@@ -33,7 +33,7 @@ tribble(
 
 # Publications
 
-```{r research-papers}
+```{r research-papers, results = 'asis'}
 bibliography_entries("gx_pubs.bib") %>%
   filter(bibtype == "Article") %>%
   arrange(date, author)
@@ -46,7 +46,7 @@ read_csv("gx_fellowships.csv") %>%
   select(year, fellowship, monetary_value) %>%
   mutate(monetary_value = paste("\\$", 
                                 format(monetary_value, big.mark = ","))) %>%
-  baretable()
+  baretable() 
 ```
 
 # Honours and awards
@@ -54,7 +54,77 @@ read_csv("gx_fellowships.csv") %>%
 ```{r awards, results = 'asis'}
 read_csv("gx_honors_awards.csv") %>%
   select(year, award, monetary_value) %>%
-  mutate(monetary_value = paste("\\$", format(monetary_value, big.mark = ","))) %>%
+  mutate(monetary_value = paste("\\$", format(monetary_value, 
+                                              big.mark = ","))) %>%
   baretable()
 ```
+
+# Conference Presentations
+
+## Invited Talks
+
+* MacIvor JS, Xie G. 2017. Functional and phylogenetic filtering of an urban wild beencommunity. Protecting Pollinators in Urban Landscapes Conference. Traverse City, MI, USA.
+
+* Lundholm JT, Heim A, Williams N, Xie G, MacIvor JS. 2017. Engineering improved ecosystem function using plant traits and environmental heterogeneity. INTERCOL Beijing. Beijing, China
+
+## Contributed Talks
+
+* Xie G, MacIvor JS, Carscadden K, Sookhan N, Cadotte MW. 2017. Functional and phylogenetic structure of urban wild bee communities. 102th Meeting of the Ecological Society of America. Portland, OR, USA 
+
+* MacIvor JS, Arnillas CA, Sookhan N, Xie G, Cadotte MW. 2017. Phylogenetic diversity and the functioning of green roofs. INTERCOL Beijing. Beijing, China
+
+* MacIvor JS, Xie G, Carscadden K, Sookhan N. 2017. Functional and phylogenetic diversity – but not species richness - increases with urbanization in a wild bee community. Ecology Across
+Borders: Joint Annual Meeting 2017. Ghent, Belgium
+
+
+# Teaching Experience
+
+## Saint Mary's University 
+```{r teaching @ SMU, results = 'asis'}
+read_csv("gx_teaching_exp.csv") %>%
+  filter(organization == "Saint Mary's University") %>%
+  mutate(course = paste0(course_code, " (", course_name, ")")) %>%
+  select(year, title, course) %>%
+  arrange(desc(year)) %>%
+  baretable()
+```
+
+## University of Toronto
+
+```{r teaching @ UTSC, results = 'asis'}
+read_csv("gx_teaching_exp.csv") %>%
+  filter(organization == "University of Toronto") %>%
+  mutate(course = paste0(course_code, " (", course_name, ")")) %>%
+  select(year, title, course) %>%
+  baretable()
+```
+
+# Professional Experience
+
+```{r prof experience, results = 'asis'}
+read_csv("gx_research_exp.csv") %>%
+  baretable()
+```
+
+# Reviewer History
+
+```{r reviewer history, results = 'asis'}
+read_csv("gx_reviewer-history.csv") %>%
+  select(year, journal) %>%
+  baretable()
+```
+
+# Media Coverage 
+
+* “These tiny green islands are designed to help Toronto's aging stormwater system”, U of T News, Aug 17, 2017
+
+* “Connecting undergrads with research opportunities at U of T and beyond”. U of T News, March 7, 2016
+
+# Professional Development 
+
+```{r prof development, results = 'asis'}
+read_csv("gx_prof_development.csv") %>%
+  baretable()
+```
+
 
