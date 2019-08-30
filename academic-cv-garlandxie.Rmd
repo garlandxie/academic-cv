@@ -32,6 +32,10 @@ tribble(
   baretable()
 ```
 
+# Research Interests
+
++ green roofs, ecosystem services, biodiversity, pollinators 
+
 # Publications
 
 ```{r research-papers, results = 'asis'}
