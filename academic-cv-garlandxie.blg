@@ -1,15 +1,19 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'academic-cv-garlandxie.blg'
-[70] biber-MSWIN32:315> INFO - === 
-[137] Biber.pm:371> INFO - Reading 'academic-cv-garlandxie.bcf'
-[451] Biber.pm:889> INFO - Found 2 citekeys in bib section 0
-[506] Biber.pm:4093> INFO - Processing section 0
-[547] Biber.pm:4254> INFO - Looking for bibtex format file 'gx_pubs.bib' for section 0
-[555] bibtex.pm:1523> INFO - LaTeX decoding ...
-[606] bibtex.pm:1340> INFO - Found BibTeX data source 'gx_pubs.bib'
-[789] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[789] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[789] Biber.pm:3921> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
-[790] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[820] bbl.pm:636> INFO - Writing 'academic-cv-garlandxie.bbl' with encoding 'UTF-8'
-[831] bbl.pm:739> INFO - Output to academic-cv-garlandxie.bbl
+[49] biber-MSWIN32:315> INFO - === 
+[98] Biber.pm:371> INFO - Reading 'academic-cv-garlandxie.bcf'
+[265] Biber.pm:889> INFO - Found 2 citekeys in bib section 0
+[298] Biber.pm:4093> INFO - Processing section 0
+[323] Biber.pm:4254> INFO - Looking for bibtex format file 'gx_pubs.bib' for section 0
+[340] bibtex.pm:1523> INFO - LaTeX decoding ...
+[383] bibtex.pm:1340> INFO - Found BibTeX data source 'gx_pubs.bib'
+[467] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[467] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[467] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[468] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[493] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[493] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[493] Biber.pm:3921> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
+[494] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[507] bbl.pm:636> INFO - Writing 'academic-cv-garlandxie.bbl' with encoding 'UTF-8'
+[520] bbl.pm:739> INFO - Output to academic-cv-garlandxie.bbl
