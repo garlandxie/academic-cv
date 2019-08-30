@@ -1,10 +1,10 @@
 ---
 name: Garland Xie
 position: "Urban Ecologist"
-address: "Department of Biology, \\tabularnewline Saint Mary's University, B3H 2N8, Canada"
+address: "Department of Biological Sciences, \\tabularnewline University of Toronto, M1C 1A4, Canada"
 phone: +1 647 330 8154
 www: garlandxie.netlify.com
-email: "garland.xie@smu.ca"
+email: "garland.xie@mail.utoronto.ca"
 twitter: garlandxie
 github: garlandxie
 linkedin: garlandxie
@@ -26,8 +26,8 @@ source("baretable.R")
 ```{r degrees, results='asis'}
 tribble(
   ~Year, ~Degree, ~Institution,
-  "2017", "Honours Bachelor of Science", "University of Toronto",
-  "2019", "Master of Applied Science", "Saint Mary's University"
+  "2011 - 2017", "Honours Bachelor of Science", "University of Toronto",
+  "2017 - 2019", "Master of Applied Science", "Saint Mary's University"
 ) %>%
   baretable()
 ```
