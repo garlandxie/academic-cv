@@ -4,7 +4,7 @@ position: "M.A.Sc Candidate"
 address: "Department of Biology, \\tabularnewline Saint Mary's University, B3H 2N8, Canada"
 phone: +1 647 330 8154
 www: garlandxie.netlify.com
-email: "garlandxie.netlify.com"
+email: "garland.xie@smu.ca"
 twitter: garlandxie
 github: garlandxie
 linkedin: garlandxie
