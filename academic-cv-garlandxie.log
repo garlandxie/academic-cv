@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.13)  29 AUG 2019 21:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.1.13)  29 AUG 2019 22:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1287,7 +1287,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 389.
 Here is how much of TeX's memory you used:
  30649 strings out of 494562
  531011 string characters out of 6176064
- 980204 words of memory out of 5000000
+ 980234 words of memory out of 5000000
  33964 multiletter control sequences out of 15000+600000
  600655 words of font info for 77 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1302,7 +1302,7 @@ o-Italic.pfb><c:/Users/garla/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/typ
 oland/carlito/Carlito.pfb><c:/Users/garla/AppData/Roaming/TinyTeX/texmf-dist/fo
 nts/type1/public/fontawesome/FontAwesome.pfb><c:/Users/garla/AppData/Roaming/Ti
 nyTeX/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on academic-cv-garlandxie.pdf (2 pages, 77626 bytes).
+Output written on academic-cv-garlandxie.pdf (2 pages, 77659 bytes).
 PDF statistics:
  132 PDF objects out of 1000 (max. 8388607)
  121 compressed objects within 2 object streams
